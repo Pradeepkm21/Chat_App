@@ -1,0 +1,74 @@
+.chatPage{
+    background-color: rgb(51, 51, 51);
+    color: white;
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.chatContainer{
+    background-color: rgb(214, 193, 193);
+    width: 50%;
+    height: 90%;
+}
+.header{
+    background-color: crimson;
+    height: 12%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.header h2{
+    color: white;
+    margin: 2.5vmax;
+    font-size: 2.6vmax;
+}
+.header img{
+    height: 1vmax;
+    filter: invert();
+    margin: 3.5vmax;
+    transition: all .3s;
+}
+.header img:hover{
+    cursor: pointer;
+    transform: scale(1.4);
+}
+.chatBox{
+    height: 78%;
+    box-sizing: border-box;
+    color: black;
+}
+.inputBox{
+    height: 10%;
+    display: flex; 
+}
+#chatInput{
+    width: 80%;
+    padding: 2vmax;
+    border: none;
+    outline: none;
+    background-color: rgb(245, 237, 237);
+    font-size: 1.2vmax;
+    font-family: 'Roboto', sans-serif;
+    border-top: 0.2vmax solid rgb(138, 136, 136);
+}
+.sendBtn{
+    width: 20%;
+    background-color: rgb(186, 42, 70);
+    color: white;
+    border: none;
+    cursor: pointer;
+    transition: all 0.3s;
+}
+.sendBtn:hover{
+    background-color: crimson;
+}
+.sendBtn img{
+    width: 2.6vmax;
+    filter: brightness(100) invert();
+    transition: all 0.3s;
+}
+.sendBtn:hover img{
+    transform: translateX(10px);
+}

@@ -1,0 +1,80 @@
+body {
+    margin: 0%;
+    font-family: 'Roboto', sans-serif;
+}
+@media (max-aspect-ratio: 7/10) {
+    .JoinContainer{
+        width: 100% !important;
+    }
+    .JoinContainer img{
+        width: 35vw !important;   
+    }
+    .JoinContainer h1{
+        font-size: 6vw !important;
+        width: 55vw !important;
+        padding: 3vw !important;
+        border-radius: 6vw !important;
+    }
+    
+    #JoinInput{
+        width: 55vw !important;
+        padding: 3.5vw !important; 
+        font-size: 3vw !important;
+        border-radius: 6vw !important;
+        padding-left: 5vw !important;
+    }
+    .Joinbtn{
+        width: 55vw !important;
+        padding: 3.5vw !important; 
+        font-size: 3.5vw !important;
+        border-radius: 6vw !important;
+    }
+
+/*chat page*/
+    .chatContainer{
+        width: 100% !important;
+        height: 100% !important;
+    }
+    .header{
+        height: 10% !important;
+    }
+    .header h2{
+        margin: 6vw !important;
+        font-size: 6vw !important;
+    }
+    .header img{
+        transform: scale(1.6) !important;
+        margin: 7vw !important;
+    }
+    .header img:hover{
+        transform: scale(2) !important;
+    }
+    .chatBox{
+        height: 80% !important;
+    }
+    .inputBox{
+        height: 10% !important;
+    }
+    #chatInput{
+        width: 80%;
+        padding: 6vw !important;
+        font-size: 3.5vw !important;
+        border-top: .4vw solid rgb(138, 136, 136) !important;
+    }
+
+    /*Message*/
+
+    .messageBox{
+        padding: 2.5vw !important;
+        margin-top: 1vw !important;
+        border-radius: 3vw !important;
+        font-size: 3.7vw !important;
+    }
+    .right{
+        margin-right: 3vw !important;
+    }
+    .left{
+        margin-left: 3vw !important;
+    }
+    
+}
